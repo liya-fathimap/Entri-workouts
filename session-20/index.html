@@ -1,0 +1,38 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-container">
+    <h2>Login form</h2>
+    <form id="login-form" novalidate>
+        <div class="form-group">
+            <label for="name" >Name:</label>
+            <input type="text" id="name" placeholder="enter your name">
+            
+            <p class="error" id="name-error"></p>
+        </div>
+        <div class="form-group">
+            <label for="email" >Email:</label>
+            <input type="email" id="email" placeholder="enter your email">
+            <p class="error" id="email-error"></p>
+        </div>
+        
+        <div class="form-group">
+             <label for="password" >Password:</label>
+            <input type="password" id="password" placeholder="enter your password">
+           
+            <p class="error" id="password-error"></p>
+        </div>
+        <button type="submit" id="submit-btn">Submit</button>
+    </form> 
+
+
+    <script src="session20.js"></script>
+</div>
+</body>
+</html>
